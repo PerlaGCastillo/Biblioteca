@@ -25,8 +25,7 @@ SECRET_KEY = 'd-1qj@c5%d%a+ib=!krcwjr%_x4a0t@rz062pd9=fiqtw^tnrj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["perlagcastillo.pythonanywhere.com"]
 
 # Application definition
 
@@ -120,6 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/perlagcastillo/Biblioteca/static'
 
 # Se define la URL para login
 LOGIN_URL = "/login/"
